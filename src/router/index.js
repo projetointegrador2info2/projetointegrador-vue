@@ -20,6 +20,10 @@ const routes = [
       path: '/carrinho',
       name: 'Carrinho',
       component: () => import('../views/Carrinho.vue')
+    }, {
+      path: '/sobre',
+      name: 'Sobre',
+      component: () => import('../views/Sobre.vue')
     }]
   },
   {

@@ -18,8 +18,9 @@
         </v-container>
     </v-main>
 
-    <v-footer app color="black" dark>
+    <v-footer app color="black" dark class="d-flex justify-space-between" >
         Projeto Integrador 2021
+        <v-btn :to="{ name: 'Sobre' }" id="btn2sobre">Sobre</v-btn>
     </v-footer>
     </v-app>
 </template>
